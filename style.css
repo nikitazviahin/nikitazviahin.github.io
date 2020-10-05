@@ -1,0 +1,39 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+body {
+  background: #999999;
+}
+
+body h3 {
+  text-align: center;
+}
+
+
+.table-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+  justify-content: center;
+  padding-bottom: 2vh;
+}
+
+.table-grid button {
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.table-grid div:hover {
+  font-size: 2rem;
+  padding-top: 10;
+  background: #DDDDDD;
+}
+
+.reset {
+  margin: auto;
+  display: flex;
+  font-size: 2rem;
+}
