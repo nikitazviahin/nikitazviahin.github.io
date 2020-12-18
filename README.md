@@ -1,3 +1,3 @@
-# JS-test-task
-JS-test-task:
+# Flappy bird
+Flappy bird with flutter:
 https://nikitazviahin.github.io/
